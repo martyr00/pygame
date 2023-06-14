@@ -18,16 +18,12 @@ while True:
         if event.type == pygame.KEYDOWN:
             if event.key == pygame.K_DOWN and rect_y + RECT_HEIGHT <= DISPLAY_HEIGHT - STEP:
                 rect_y += STEP
-                print("y", rect_y)
             if event.key == pygame.K_UP and rect_y >= 0 + STEP:
                 rect_y -= STEP
-                print("y", rect_y)
             if event.key == pygame.K_RIGHT and rect_x + RECT_WIGHT <= DISPLAY_WIGHT - STEP:
                 rect_x += STEP
-                print("x", rect_x)
             if event.key == pygame.K_LEFT and rect_x >= 0 + STEP:
                 rect_x -= STEP
-                print("x", rect_x)
 
     display.fill(DISPLAY_COLOR)
     pygame.draw.rect(display, RECT_COLOR, (rect_x, rect_y, RECT_WIGHT, RECT_HEIGHT))
