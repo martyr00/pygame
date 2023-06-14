@@ -1,0 +1,9 @@
+from pygame import Color
+
+DISPLAY_WIGHT, DISPLAY_HEIGHT = 800, 600
+DISPLAY_COLOR = (32, 52, 71)
+
+RECT_WIGHT, RECT_HEIGHT = 100, 200
+RECT_COLOR = Color('lightyellow')
+
+STEP = 10
