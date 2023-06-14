@@ -1,6 +1,6 @@
 import sys
 import pygame
-from constats import *
+from constants_for_rectangle_game import *
 
 pygame.init()
 
