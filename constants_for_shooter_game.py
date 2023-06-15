@@ -1,4 +1,7 @@
+import pygame
 DISPLAY = (800, 750)
 
 FIGHTER_STEP = 5
 ROCKETS_STEP = 4
+ENEMY_STEP = 2
+
